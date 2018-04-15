@@ -19,7 +19,7 @@ module FormsLab
 
     params[:pirate][:ships].each do |details|
       ship = Ship.new(details)
-      # binding.pry
+      binding.pry
     end
 
     @ships = Ship.all
